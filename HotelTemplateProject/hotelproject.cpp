@@ -50,11 +50,16 @@ void madebyAce::on_pushButton_pressed()
     getDataFTable();
 }
 
-void madebyAce::on_pushButton_2_clicked()
+void madebyAce::on_pushButton_2_pressed()
 {
     addDataForm* d = new addDataForm();
     d->date = ui->calen->selectedDate().toString();
     d->setFixedSize(840,521);
     d->show();
     getDataFTable();
+}
+
+void madebyAce::on_pushButton_3_pressed()
+{
+    QMainWindow* window = new QMainWindow(centralWidget());
 }

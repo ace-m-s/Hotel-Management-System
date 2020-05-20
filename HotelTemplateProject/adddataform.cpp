@@ -36,6 +36,7 @@ void addDataForm::on_pushButton_2_pressed()  // Add new data to the database, cr
     delete person;
     delete this;
     }
+
 }
 
 void addDataForm::on_pushButton_pressed()

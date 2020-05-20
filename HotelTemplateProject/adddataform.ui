@@ -221,6 +221,9 @@ QStatusBar {
   <layout class="QGridLayout" name="gridLayout">
    <item row="3" column="0">
     <widget class="QPushButton" name="pushButton">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">  background-color: #4CAF50;
 border-radius: 4px;
@@ -347,6 +350,9 @@ border-radius: 4px;
    </item>
    <item row="2" column="0">
     <widget class="QPushButton" name="pushButton_2">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">  background-color: #4CAF50;
 border-radius: 4px;

@@ -284,6 +284,9 @@ QStatusBar {
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
          <widget class="QPushButton" name="pushButton">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="styleSheet">
            <string notr="true">  background-color: #4CAF50;
 border-radius: 4px;
@@ -303,6 +306,9 @@ border-radius: 4px;
         </item>
         <item>
          <widget class="QPushButton" name="pushButton_2">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="mouseTracking">
            <bool>false</bool>
           </property>
@@ -392,7 +398,7 @@ border-radius: 4px;
      <x>0</x>
      <y>0</y>
      <width>939</width>
-     <height>18</height>
+     <height>17</height>
     </rect>
    </property>
   </widget>
